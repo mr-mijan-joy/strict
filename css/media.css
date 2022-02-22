@@ -322,6 +322,9 @@
 	.container {
 		width: 100%;
 	}	
+	.menu {
+		display: inline-block;
+	}
 	.b_content h1 {
 		font-size: 100px;
 	}
@@ -375,8 +378,8 @@
 	/*extra large devices*/
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-	#banner, #about, #services, #works, #contact {
-		width: 100%;
+	.menu {
+		display: inline-block;
 	}
 	#about {
 		padding: 60px 4px;
@@ -398,5 +401,7 @@
 	/*extra extra large devices*/
 
 @media (min-width: 1400px) {
-	
+	.menu {
+		display: inline-block;
+	}
 }
