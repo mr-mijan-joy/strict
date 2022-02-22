@@ -1,2 +1,1 @@
-"# strict" 
-# strict
+ https://mrmijan44.github.io/strict/
