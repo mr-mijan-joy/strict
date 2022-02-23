@@ -3,6 +3,13 @@
 	padding: 0;
 	font-family: lato_r;
 }
+:root {
+	--primary-color: #2d3950;
+	--secondary-color: #999999;
+	--normal-color: #ffffff;
+	--button-color: #15A4FA;
+	--background:  #F6F9F9;
+}
 
 @font-face {
 	font-family: lato_b;
@@ -43,7 +50,7 @@ html {
 	padding: 20px;
 	font-size: 16px;
 	font-family: lato_r;
-	color: #999999;
+	color: var(--secondary-color);
 	font-weight: 300;
 	line-height: 29px;
 }
@@ -56,7 +63,7 @@ html {
 .s_p {
 	font-size: 14px;
 	font-family: lato_r;
-	color: #999999;
+	color: var(--secondary-color);
 	font-weight: 300;
 	line-height: 23px;
 }
@@ -102,12 +109,12 @@ header {
 	font-size: 19px;
 	font-family: lato_r;
 	color: #2d3950;
-	border-bottom: 1px solid #2d3950;
+	border-bottom: 1px solid var(--primary-color);
 	border: none;
 	transition: 0.3s;
 }
 .menu ul li a:hover {
-	border-bottom: 1px solid #2d3950;
+	border-bottom: 1px solid var(--primary-color);
 }
 	
 	/*header ends*/
@@ -138,7 +145,7 @@ header {
 	font-family: lato_b;
 	color: #fff;
 	letter-spacing: 5px;
-	border-bottom: 1px solid #15A4FA;
+	border-bottom: 1px solid var(--button-color);
 	animation: left 2s ease;
 }
 .b_content p {
@@ -156,7 +163,7 @@ header {
 	font-family: lato_r;
 	color: #fff;
 	background: transparent;
-	border: 1px solid #15A4FA;
+	border: 1px solid var(--button-color);
 	border-top: none;
 	border-radius: 3px;
 	cursor: pointer;
@@ -164,7 +171,7 @@ header {
 	animation: bottom 2s ease;
 }
 .b_content button:hover {
-	background: #15A4FA;
+	background: var(--button-color);
 }
 .arrow {
 	position: absolute;
@@ -181,7 +188,7 @@ header {
 	/*about starts*/
 
 #about {
-	background-color: #F6F9F9;
+	background-color: var(--background);
 	padding: 60px;
 	text-align: center;
 }
@@ -232,7 +239,7 @@ header {
 #works {
 	text-align: center;
 	padding: 60px 0;
-	background-color: #F6F9F9;
+	background-color: var(--background);
 }
 #works h2 {
 	padding: 10px 0;
@@ -288,7 +295,7 @@ header {
 	padding: 15px;
 	margin: 20px 0;
 	background: transparent;
-	border: 1px solid #999999;
+	border: 1px solid var(--secondary-color);
 	border-radius: 5px;
 	color: white;
 }
@@ -310,9 +317,9 @@ header {
 .box > input {
 	width: 15px;
 	height: 15px;
-  	border: 1px solid #999999;
+  	border: 1px solid var(--secondary-color);
   	border-radius: 5px;
-  	background-color: #999999;
+  	background-color: var(--secondary-color);
   	cursor: pointer;
   	outline: none;
 }
@@ -327,14 +334,14 @@ header {
 	font-family: lato_r;
 	color: #fff;
 	background: transparent;
-	border: 1px solid #15A4FA;
+	border: 1px solid var(--button-color);
 	border-radius: 3px;
 	cursor: pointer;
 	transition: 0.3s;
 	float: right;
 }
 .button:hover {
-	background: #15A4FA;
+	background: var(--button-color);
 }
 
 
