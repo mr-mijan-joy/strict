@@ -172,6 +172,7 @@ header {
 	left: 47%;
 	background: transparent;
 	cursor: pointer;
+	animation: top 2s ease infinite alternate;
 }
 
 	/*banner ends*/
@@ -246,8 +247,8 @@ header {
 	margin: 20px 10px;
 	cursor: grab;
 }
-.w_img:hover {
-
+.w_img:hover  {
+	
 }
 
 	/*works ends*/
@@ -402,5 +403,13 @@ footer {
 	to{
 		margin-bottom: 0;
 		opacity: 1;
+	}
+}
+@keyframes top {
+	from{
+		margin-left: 20px;
+	}
+	to{
+		margin-left: -20px;
 	}
 }

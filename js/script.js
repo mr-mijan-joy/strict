@@ -2,18 +2,18 @@
 
 	// card animation script
 	
-const element = document.querySelector('.card');
-const observer = new IntersectionObserver(entries => {
-  element.classList.toggle( 'animation', entries[0].isIntersecting );
-});
+// const element = document.querySelector('.card');
+// const observer = new IntersectionObserver(entries => {
+//   element.classList.toggle( 'animation', entries[0].isIntersecting );
+// });
 
-observer.observe( element );
+// observer.observe( element );
 
 
-	// menubar script
+	// // menubar script
 
- function myFunction() {
-    document.getElementsByClassName("menu")[0].classList.toggle("m_img");
-  }
+ // function myFunction() {
+ //    document.getElementsByClassName("menu")[0].classList.toggle("m_img");
+ //  }
 
- myFunction();
+ // myFunction();

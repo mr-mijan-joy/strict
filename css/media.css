@@ -322,9 +322,6 @@
 	.container {
 		width: 100%;
 	}	
-	.menu {
-		display: inline-block;
-	}
 	.b_content h1 {
 		font-size: 100px;
 	}
@@ -378,16 +375,13 @@
 	/*extra large devices*/
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-	.menu {
-		display: inline-block;
-	}
 	#about {
 		padding: 60px 4px;
 	}
 	.b_content {
-		width: 35%;
+		width: 38%;
 		top: 23%;
-		left: 37%;
+		left: 31%;
 	}
 	.arrow {
 		left: 53%;
@@ -401,7 +395,5 @@
 	/*extra extra large devices*/
 
 @media (min-width: 1400px) {
-	.menu {
-		display: inline-block;
-	}
+
 }
