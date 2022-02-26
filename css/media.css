@@ -82,9 +82,9 @@
 	.images {
 		padding: 15px 30px;
 	}
-	.w_img {
+	.image {
 		width: 90%;
-		margin: 10px 5px;
+		margin: 20px auto;
 	}
 	.c_title {
 		font-size:20px;
@@ -198,8 +198,9 @@
 	.images {
 		padding: 30px 50px;
 	}
-	.w_img {
+	.image {
 		width: 90%;
+		margin: 20px auto;
 	}
 	.c_title {
 		font-size: 30px;
@@ -234,6 +235,10 @@
 	}
 	.icons {
 		width: 30%;
+	}
+	.icons img {
+		width: 35px;
+		height: 35px;
 	}
 }
 
@@ -289,7 +294,7 @@
 	.images {
 		padding: 30px 50px;
 	}
-	.w_img {
+	.image {
 		width: 45%;
 	}
 	.c_content {
@@ -313,6 +318,10 @@
 	}
 	.icons {
 		width: 22%;
+	}
+	.icons img {
+		height: 35px;
+		width: 35px;
 	}
 }
 
