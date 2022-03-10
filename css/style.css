@@ -181,7 +181,7 @@ header {
 	left: 47%;
 	background: transparent;
 	cursor: pointer;
-	animation: top 2s ease infinite alternate;
+	animation: top 1s ease infinite alternate;
 }
 
 	/*banner ends*/
@@ -468,9 +468,9 @@ footer {
 }
 @keyframes top {
 	from{
-		margin-left: 20px;
+		bottom: 13%;
 	}
 	to{
-		margin-left: -20px;
+		bottom: 9%;
 	}
 }
