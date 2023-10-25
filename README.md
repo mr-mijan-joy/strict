@@ -1,1 +1,1 @@
- https://mrmijan44.github.io/strict/
+ https://mr-mijan-joy.github.io/strict/
